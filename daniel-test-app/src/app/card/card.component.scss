@@ -1,0 +1,10 @@
+  .card-background {
+   background-color: darkgrey;
+   font-weight: bold;
+   cursor: pointer;
+   min-height: 10vh;
+   margin-bottom: 5px;
+   &.selected{
+    border: 2px solid blue;
+   }
+  }

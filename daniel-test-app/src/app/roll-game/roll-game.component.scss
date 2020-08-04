@@ -1,0 +1,57 @@
+.enemies{
+    display: inline-block;
+}
+.player-info{
+    display: inline-block;
+    vertical-align: top;
+}
+.info-wrapper{
+    width: 100%;
+    display: block;
+}
+.character-stats{
+    display: inline-block;
+    vertical-align: top;
+.stat-name{
+    color: gray;
+}
+.stat-value{
+    font-weight: 500;
+}
+.potential-change{
+    font-weight: 500;
+    .positive{
+        color: green;
+        &::before{
+            content: "+";
+        }
+    }
+    .negative{
+        color: red;
+    }
+}
+    .potential-new-value{
+        font-weight: 500;
+    }
+}
+.game-wrapper{
+    display: inline-block;
+}
+
+button{
+    background-color: #a6c!important;
+    color: white !important;
+    border-radius: 10em;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    padding: .84rem 2.14rem;
+    font-size: .81rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin: .375rem;
+    border: 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    white-space: normal;
+    &:disabled{
+        opacity: 0.4;
+    }
+}

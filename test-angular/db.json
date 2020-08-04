@@ -1,0 +1,16 @@
+{
+    "teams" : [
+        {
+            "id": 1,
+            "name": "Detroit Red Wings"
+        },
+        {
+            "id": 2,
+            "name": "Tampa Bay Lightning"
+        },
+        {
+            "id": 3,
+            "name": "New York Rangers"
+        }
+    ]
+}
